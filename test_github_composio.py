@@ -4,7 +4,7 @@ import json
 import os
 
 # Initialize
-openai_client = OpenAI(api_key="sk-proj-pLasvgbTY0bgpQEms5Cy6uUQQ_Pd")
+openai_client = OpenAI(api_key="")
 composio_toolset = ComposioToolSet(entity_id="default")
 
 # ======== ISSUES LIST TEST ========>

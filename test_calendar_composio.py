@@ -4,9 +4,7 @@ import json
 from datetime import datetime, timedelta
 
 # Initialize
-openai_client = OpenAI(
-    api_key="sk-proj-pLasvgbTY0bgpQEms5Cy6uUQQ_PdqM1WIkZPuCCAMbL_88UviLqatKi7B8gDJodYCJt-zSYFWiT3Blb"
-)
+openai_client = OpenAI(api_key="")
 composio_toolset = ComposioToolSet(entity_id="default")
 
 print("🔍 Testing Google Calendar Event Creation...")
